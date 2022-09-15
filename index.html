@@ -1,251 +1,236 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio</title>
-
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-	<link rel="stylesheet" href="index.css">
-
-	<!-- Font Family -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Lexend:wght@300&family=Luckiest+Guy&family=Mali&family=Open+Sans&family=Vujahday+Script&display=swap" rel="stylesheet">
-
-	<!-- font awesome -->
-	<script src="https://kit.fontawesome.com/08e3ec0a0d.js" crossorigin="anonymous"></script>
-
-	<!-- AOS -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-
-<body>
-
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light">
-		<a class="navbar-brand" href="#"><img class="logo" src="images/logo-no-bg.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-
+<html>
+	<head>
 		
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ml-auto d-flex rounded-pill border-0">
-				<li class="nav-item mx-3 navbar-li">
-					<a class="nav-link navbar-li" href="#home-section">Home</a>
-				</li>
-				<li class="nav-item mx-3 navbar-li">
-					<a class="nav-link navbar-li" href="#aboutme-section">About Me</a>
-				</li>
-				<li class="nav-item mx-3 navbar-li">
-					<a class="nav-link navbar-li" href="#projects-section">My Projects</a>
-				</li>
-				<li class="nav-item mx-3 navbar-li">
-					<a class="nav-link navbar-li" href="#contactme-section">Contact Me</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-<!-- 
-	<section class="vw-95 vh-90 d-flex position-relative">
-		<div class="w-50 vh-100 bg-primary"></div>	
-		<div class="w-50 vh-100 bg-secondary"></div>
-		<div class="bg-info position-absolute" id="home-card"></div>
-	</section> -->
-	<div id="home-section"></div>
-	<div class="pinkbg min-vh-100 vw-90 py-md-5 pt-5">
-		<div class="container py-5">
-			<div class="row border border-dark p-md-5">
-				<div class="col-12 col-md-6">
-					<div class="d-flex p-1 align-items-center bg-white" id="home-search">
-						<i class="fa-solid fa-magnifying-glass ml-3"></i>
-						<p class="mb-auto mt-auto ml-5 text-justify"> Hello, my name is</p>
-						<p class="ml-auto mr-3 mt-3"><i class="fa-regular fa-heart"></i></p>
-					</div>
-					<div class="p-1 bg-white" id="home-card">
-						<p class="text-right" id="home-card-name">NENIA,</p>
-						<p class="text-right" id="home-card-intro">I'm a <span>	&lt; WEB DEVELOPER &gt;</span></p>
-						<div class="pl-3" id="call-to-action">
-						<p>Interested in working together?</p>
-						<p>Let's have a talk!</p>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My Portfolio</title>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" href="index.css">
+
+		<!-- Font Family -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Acme&family=Fredoka+One&family=Lexend:wght@300&family=Luckiest+Guy&family=Mali&family=Open+Sans&family=Vujahday+Script&display=swap" rel="stylesheet">
+
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/08e3ec0a0d.js" crossorigin="anonymous"></script>
+
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	</head>
+	<body>
+
+		<!-- Navbar Section Start -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#"><img class="logo" src="images/logo-no-bg.png"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse navbarSupportedContent" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#home-section">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about-me-section">About Me</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects-section">My Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact-section">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Navbar Section End -->
+
+		<!-- Home Section Start -->
+		<div id="home-section"></div>
+		<div class="container-fluid min-vh-100 p-md-5">
+			<div class="row section-row">
+				<div class="col-12 col-md-6 col-lg-5 offset-lg-1 p-4 p-md-5">
+					<div id="home-search" class="container bg-white">
+						<div class="row p-2 d-flex">
+							<i class="fa-solid fa-magnifying-glass ml-3 my-auto"></i>
+							<p class="ml-3 my-auto mr-auto"> Hello, my name is</p>
+							<i class="fa-regular fa-heart mr-3 my-auto"></i>
 						</div>
-						<div class="text-right mr-5 mb-3">
-							
-							<button class="border-0 py-1 rounded-pill px-2" id="home-card-button"><a href="#contactme-section"  id="home-card-link">CONTACT ME</a></button><i class="fa-solid fa-phone ml-3" id="phone-icon"></i> 
+					</div>
+					<div id="home-card" class="bg-white d-flex flex-column p-3">
+						<p id="home-card-name" class="ml-auto mr-3">NENIA,</p>
+						<p id="home-card-title" class="ml-auto mr-1">I'm a <span id="home-card-title-span">&lt; WEB DEVELOPER &gt;</span></p>
+						<div>
+							<p class="home-card-text">Interested in working together?</p>
+							<p class="home-card-text">Let's have a talk!</p>
+						</div>
+						<div class="ml-auto mr-4">
+							<button  id="home-card-button" class="border-0 py-1 rounded-pill px-2">
+								<a id="home-card-link" href="#">CONTACT ME</a>
+							</button>
+							<i id="phone-icon" class="fa-solid fa-phone"></i>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-6 d-flex justify-content-center align-items-center mt-5 mt-md-0">
-					<img id="profile-pic" src="images/about.jpg" alt="profile picture">	
+				<div class="col-12 col-md-6 col-lg-5 p-4 p-md-5 d-flex justify-content-center align-items-center">
+					<img id="profile-pic" class="img-fluid" src="images/about.jpg" alt="profile picture">
 				</div>
 			</div>
 		</div>
-	</div>
-	
-	<!-- About Me Section Start-->
-	<div id="aboutme-section"></div>
+		<!-- Home Section End -->
 
-	<div class="pinkbg min-vh-100 vw-90 py-md-5">
-		<div class="container py-5" id="about-me-div">
-			<!-- <div id="about-me-abstract-img-container">
-				<img src="images/corner-bg-2.png" alt="profile picture" id="about-me-abstract-img">
-			</div> -->
-			<div class="row border border-dark" id="about-me-border">
+		<!-- About Me Start -->
+		<div id="about-me-section"></div>
+		<div class="container-fluid min-vh-100 p-md-5">
+			<div class="row section-row">
 
-				<div class="col-md-6 d-flex justify-content-center align-items-center">
-					<img id="about-pic" src="images/about-me-pic-2.png" alt="about me picture">
+				<div class="col-12 col-md-6 col-lg-5 p-2 p-md-5 pl-lg-0 d-flex justify-content-center align-items-center offset-lg-1" data-aos="fade-down">
+					<img id="about-me-pic" class="img-fluid" src="images/about-me-pic-2.png" alt="about me picture">
 				</div>
 
-				<div class="col-12 col-md-6 mt-4" data-aos="fade-down">
-					<div class="d-flex p-1 align-items-center bg-white" id="home-search">
-						<i class="fa-solid fa-magnifying-glass ml-3"></i>
-						<h2 class="mb-auto mt-auto ml-5 text-justify" id="about-title">&lt;/ ABOUT ME &gt;</h2>
-						<p class="ml-auto mr-3 mt-3"><i class="fa-regular fa-heart"></i></p>
+				<div class="col-12 col-md-6 col-lg-5 px-4 p-md-5 p-lg-3" data-aos="fade-down">
+					<div id="about-search" class="container bg-white">
+						<div class="row p-2 d-flex">
+							<i class="fa-solid fa-magnifying-glass ml-3 my-auto"></i>
+							<p id="about-me-header" class="m-auto text-uppercase">&lt;/ About Me&gt;</p>
+							<i class="fa-regular fa-heart mr-3 my-auto"></i>
+						</div>
 					</div>
-
-					<div class="px-5 py-4 bg-white" id="about-me-card">
-						<p class="text-justify" id="about-me-text">
+					<div id="about-card" class="bg-white d-flex flex-column p-3">
+						<p class="text-justify about-me-text">
 							I am an aspiring Front-End Developer and UI/UX Designer from the Philippines.
 						</p>
-						<p class="text-justify" id="about-me-text">
+						<p class="text-justify about-me-text">
 							I love the logic and structure of coding that helps me create a responsive website.
 						</p>
-						<p class="text-justify" id="about-me-text">
+						<p class="text-justify about-me-text">
 							I also aim to help business owners by creating beautiful, user-friendly and responsive websites to increase revenue.</p>
-						</p>	
+						</p>
 					</div>
-					<div class="d-flex justify-content-center mt-2" id="skills-container">
-						<p class="mt-2 ml-2 font-weight-bold" id="skills-text">S K I L L S :</p>
-						<div>
-								<img src="images/logo-html5.png"  class="skills-icon-link mx-2 mt-2">
-								<img src="images/logo-css3.png" class="skills-icon-link mx-2 mt-2">
-								<img src="images/logo-bootstrap.png" class="skills-icon-link mx-2 mt-2">	
-						</div>
-					</div>
-				</div>
-			
-			</div>
-		</div>
-	</div>
-	<!-- About Me Section End-->
 
-	<!-- Project Section Start -->
-	<div id="projects-section"></div>
-
-	<div class="pinkbg min-vh-100 vw-90 py-md-5 pt-5">
-		<div class="container py-5 border border-dark">
-			<h2 class="text-center mb-1" id="project-title">&lt; MY PROJECTS &gt;</h2>
-
-			<div class="projects-container-one">
-
-				<div class="card bg-secondary p-1 col-12 col-md-3 col-xl-3 mb-5 mb-lg-0" data-aos="fade-right">
-					<div class="card-body">
-						<img class="card-img-top" src="images/city-night.png" alt="City Skyline at Night Image">
-						<h6 class="card-title mt-3 text-light text-center">City Skyline at Night</h5>
-					</div>
-				</div>
-
-				<div class="card bg-secondary p-1 col-12 col-md-3 col-xl-3 mb-5 mb-lg-0" data-aos="fade-down">
-					<div class="card-body">
-						<img class="card-img-top" src="images/penguin-love.png" alt="City Skyline at Night Image">
-						<h6 class="card-title mt-3 text-light text-center">I <i class="fa-solid fa-heart"></i> CSS</h5>
-					</div>
-				</div>
-
-				<div class="card bg-secondary p-1 col-12 col-md-3 col-xl-3 mb-5 mb-lg-0" data-aos="fade-left">
-					<div class="card-body">
-						<img class="card-img-top" src="images/city-day.png" alt="City Skyline at Day Image">
-						<h6 class="card-title mt-3 text-light text-center">City Skyline at Day</h5>
-					</div>
-				</div>
-
-			</div>
-
-			<div class="projects-container-two mt-1">
-
-				<div class="card bg-secondary p-1 col-12 col-md-3 col-xl-3 mb-5 mb-lg-0 mx-md-5" data-aos="fade-up">
-					<div class="card-body">
-						<img class="card-img-top" src="images/survey-form.png" alt="Survey Form Image">
-						<h6 class="card-title mt-3 text-light text-center">Customer Survey Form</h5>
-					</div>
-				</div>
-
-				<div class="card bg-secondary p-1 col-12 col-md-3 col-xl-3 mb-5 mb-lg-0 mx-md-5" data-aos="fade-up">
-					<div class="card-body">
-						<img class="card-img-top" src="images/nutrition-label.png" alt="Nutrition Label Image">
-						<h6 class="card-title mt-3 text-light text-center">Nutrition Label</h5>
-					</div>
-				</div>
-
-			</div>
-			
-		</div>
-		<div id="contactme-section"></div>
-	</div>
-	<!-- Project Section End -->
-
-	
-
-	<div class="pinkbg min-vh-100 vw-90 py-md-5 pt-5">
-		<div class="container h-100">
-			<div class="row h-100 border border-dark p-md-5">
-				<div class="col-12 col-md-6 text-center pt-5" id="contact-container-one" data-aos="zoom-out">
-				
-						<h2 id="contact-title">&lt;/ LET'S CONNECT! &gt;</h2>
-						<h3 id="contact-subtitle">Let me help you...</h3>
-				</div>
-				<div class="col-12 col-md-6 h-100 d-flex flex-column justify-content-center">
-					<div>
-						<div class="d-flex justify-content-start w-100 my-3" data-aos="fade-left">
-							<img class="contact-icon ml-5" src="images/home.png" alt="home icon image">
-							<p class="ml-3 mt-4 contact-info-text">Quezon City, Philippines</p>
-						</div>
-						<div class="d-flex justify-content-start w-100 my-3" data-aos="fade-left">
-							<img class="contact-icon ml-5" src="images/telephone icon.png" alt="telephone icon image">
-							<p class="ml-3 mt-4 contact-info-text">+63 9773617104</p>
-						</div>
-						<div class="d-flex justify-content-start w-100 my-3" data-aos="fade-left">
-							<img class="contact-icon ml-5" src="images/email.png" alt="email icon image">
-							<p class="ml-3 mt-4 contact-info-text">nenia.naag@gmail.com</p>
-						</div>
-					</div>	
-					
-						<div class="d-flex" id="social-container" data-aos="fade-up">
-							<p class="mt-2 ml-md-5 font-weight-bold" id="social-text">S O C I A L S :</p>
-							<div>
-								<a href="https://www.facebook.com/simplynenia"  target="_blank" id="social-icon-link">
-									<i class="fa-brands fa-facebook-f contact-social-icon mx-2" id="facebook-icon"></i>
-								</a>
-								<a href="https://www.instagram.com/simplyninz24/" id="social-icon-link">
-									<i class="fa-brands fa-instagram contact-social-icon mx-2"></i>
-								</a>	
-								<a href="https://www.linkedin.com/in/nenia-naag-16a598234/" id="social-icon-link">
-									<i class="fa-brands fa-linkedin-in contact-social-icon mx-2"></i>
-								</a>
-								<a href="https://gitlab.com/nenianaag" id="social-icon-link">
-									<i class="fa-brands fa-gitlab contact-social-icon mx-2"></i>
-								</a>
+					<div class="d-lg-flex mt-lg-3" data-aos="fade-up">
+						<p id="skills-header" class="text-center font-weight-bold mt-3 mt-lg-4 text-nowrap">&lt; Skills &gt;</p>
+						<div class="container">
+							<div class="row d-flex justify-content-around">
+								<img class="skills-icon" src="images/logo-html5.png">
+								<img class="skills-icon" src="images/logo-css3.png">
+								<img class="skills-icon" src="images/logo-bootstrap.png">
 							</div>
 						</div>
+					</div>
 				</div>
+
 			</div>
 		</div>
+		<!-- About Me End -->
+
+		<!-- Projects Start -->
+		<div id="projects-section"></div>
+		<div class="container-fluid min-vh-100">
+			<div class="px-3">
+				<h2 id="projects-header" class="text-uppercase text-center">&lt; Projects&gt;</h2>
+				<div class="row d-flex justify-content-around">
+
+					<div class="bg-secondary col-12 col-md-3 col-lg-2 px-3 pt-3 my-3 my-md-0 projects-card" data-aos="fade-down">
+						<img class="img-fluid" src="images/city-night.png" alt="City Skyline at Night Image">
+						<p class="card-title mt-3 text-light text-center">City Skyline at Night</p>
+					</div>
+
+					<div class="bg-secondary col-12 col-md-3 col-lg-2 px-3 pt-3 my-3 my-md-0 projects-card" data-aos="fade-down">
+						<img class="img-fluid" src="images/penguin-love.png" alt="I Love CSS">
+						<p class="card-title mt-3 text-light text-center">I <i class="fa-solid fa-heart"></i> CSS</p>
+					</div>
+
+					<div class="bg-secondary col-12 col-md-3 col-lg-2 px-3 pt-3 my-3 my-md-0 projects-card" data-aos="fade-down">
+						<img class="img-fluid" src="images/city-day.png" alt="City Skyline at Day">
+						<p class="card-title mt-3 text-light text-center">City Skyline at Day</p>
+					</div>
+
+				</div>
+				<div class="row d-sm-flex mt-md-3">
+
+					<div class="bg-secondary col-12 col-md-3 offset-md-3 col-lg-2 offset-lg-3 px-3 pt-3 my-3 my-md-0 projects-card" data-aos="fade-up">
+						<img class="img-fluid" src="images/survey-form.png" alt="Customer Survey Form">
+						<p class="card-title mt-3 text-light text-center">Customer Survey Form</p>
+					</div>
+
+					<div class="bg-secondary col-12 col-md-3 offset-md-1 col-lg-2 px-3 offset-lg-2 pt-3 my-3 my-md-0 projects-card" data-aos="fade-up">
+						<img class="img-fluid" src="images/nutrition-label.png" alt="Nutrition Label">
+						<p class="card-title mt-3 text-light text-center">Nutrition Label</p>
+					</div>
+
+				</div>
+			</div>
+			
+		</div>
+		<!-- Projects End -->
+
+		<!-- About Me Start -->
+		<div id="contact-section"></div>
+		<div class="container-fluid min-vh-100 p-md-5">
+			<div class="row section-row" id="contact-section-row">
+
+				<div class="col-12 col-md-6 col-lg-5 p-2 p-md-5 pl-lg-0 d-flex flex-column justify-content-center align-items-center offset-lg-1" data-aos="fade-down">
+					<h2 id="contact-header">&lt;/ LET'S CONNECT! &gt;</h2>
+					<h3 id="contact-subheader">Let me help you...</h3>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-5 p-5 p-md-5 p-lg-3">
+					<div class="d-flex my-3" data-aos="fade-down">
+						<img class="contact-icon" src="images/home.png" alt="home icon image">
+						<p class="contact-info-text my-auto ml-3">Quezon City, Philippines</p>
+					</div>
+					<div class="d-flex my-3" data-aos="fade-down">
+						<img class="contact-icon" src="images/telephone icon.png" alt="telephone icon image">
+						<p class="contact-info-text my-auto ml-3">+63 9773617104</p>
+					</div>
+					<div class="d-flex my-3" data-aos="fade-down">
+						<img class="contact-icon" src="images/email.png" alt="email icon image">
+						<p class="contact-info-text my-auto ml-3">nenia.naag@gmail.com</p>
+					</div>
+					<div class="d-lg-flex" data-aos="fade-up">
+						<p class="font-weight-bold text-uppercase text-center my-md-auto" id="socials-header">socials:</p>
+						<div>
+							<a href="https://www.facebook.com/simplynenia" target="_blank" class="social-icon-link">
+								<i class="fa-brands fa-facebook-f contact-social-icon mx-2 mx-md-1" id="facebook-icon"></i>
+							</a>
+							<a href="https://www.instagram.com/simplyninz24/" target="_blank" class="social-icon-link">
+								<i class="fa-brands fa-instagram contact-social-icon mx-2 mx-md-1"></i>
+							</a>	
+							<a href="https://www.linkedin.com/in/nenia-naag-16a598234/" target="_blank" class="social-icon-link">
+								<i class="fa-brands fa-linkedin-in contact-social-icon mx-2 mx-md-1"></i>
+							</a>
+							<a href="https://gitlab.com/nenianaag" target="_blank" class="social-icon-link">
+								<i class="fa-brands fa-gitlab contact-social-icon mx-2 mx-md-1"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- About Me End -->
 		
-	</div>
+		<!-- Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+		<!-- Navbar Collapse Fix -->
+		<script>
+			$("#navbarNav a:not(.dropdown-toggle)").click(function() {
+			  $("#navbarNav").collapse("hide");
+			});
+		</script>
 
+		<!-- AOS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	    <script>
+	    	AOS.init();
+	    </script>
 
-
-
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
-</body>
+	</body>
 </html>
