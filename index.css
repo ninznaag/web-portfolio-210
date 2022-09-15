@@ -304,6 +304,7 @@ span {
 
 	#social-container {
 		flex-direction: column;
+		text-align: center;
 	}
 }
 
