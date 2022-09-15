@@ -1,0 +1,531 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-size: border-box;
+}
+
+.logo {
+	height: 30px;
+	width: 125px;
+}
+
+.navbar {
+	background-color: #b5838d!important;
+}
+
+.navbar-li:hover {
+	background: #6d6875;
+	color: #ffc8dd !important;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	/*padding: 1px;*/
+}
+
+.pinkbg {
+	background-image: url("images/background2.png");
+}
+
+#home-search {
+	border: 1px solid gray;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+#home-card, #about-me-card {
+	border: 1px solid gray;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+/*.card {
+	height: 10%;
+	width: 10%;
+}*/
+
+#home-card-name, #contact-title {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: bold;
+	font-size: 75px;
+	margin-right: 10%;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#home-card-intro {
+	font-size: 25px;
+	margin-right: 10%;
+	margin-top: 0;
+}
+
+#call-to-action {
+	font-family: 'Mali', cursive;
+	font-size: 20px;
+}
+
+span {
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+}
+
+#phone-icon {
+	border: 5px solid  #b5838d;
+	border-radius: 100%;
+	padding: 5px;
+	color: #b5838d;
+}
+
+#home-card-button {
+	background-color: #b5838d;
+}
+
+#home-card-button:hover {
+	background-color: #6d6875;
+}
+
+#home-card-link {
+	color: #ffc8dd;
+	font-weight: bold;
+}
+
+#home-card-link:hover {
+	color: #ffc8dd;
+	text-decoration: none;
+}
+
+#profile-pic {
+	height: 75%;
+	width: 75%;
+	border-radius: 25px;
+	/*transform: rotate(40deg);*/
+}
+
+/*#about-me-border {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 2;
+}*/
+
+#about-pic {
+	height: 75%;
+	width: 75%;
+/*	transform: rotate(20deg);*/
+	z-index: 3;
+	border-radius: 30%;
+}
+
+/*#about-me-div {
+	position: relative;
+}*/
+
+/*#about-me-abstract-img-container {
+	position: absolute;
+	top: 200%;
+	left: -5%;
+	z-index: 1;
+}*/
+
+/*#about-me-abstract-img {
+	height: 20vw;
+}*/
+
+#about-me-text {
+	font-family: 'Mali', cursive;
+}
+
+.skills-icon-link {
+	border: 1px solid  #ffc0cb;
+	border-radius: 100%;
+	padding: 0;
+	background-color: #ffc0cb;
+	font-size: 2px;
+	height: 60px;
+	width: 60px;
+}
+
+
+#project-title, #about-title {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 45px;
+}
+	
+.projects-container-one {
+	display: flex;
+	justify-content: space-around;
+}
+
+.projects-container-two {
+	display: flex;
+	justify-content: center;
+}
+
+#contact-container-one {
+	padding: 15% 0 0 0;
+	height: 100%;
+}
+
+#contact-subtitle {
+	font-family: 'Vujahday Script', cursive;
+	font-size: 40px;
+}
+
+.icon-container {
+	width: 300px;
+}
+
+.contact-icon {
+	height: 17.5%;
+	width: 17.5%;
+	border-radius: 100px;
+}
+
+.contact-info-text {
+	font-family: 'Lexend', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.contact-icon-container {
+	border: 1px solid  #ffc0cb;
+	border-radius: 100px;
+	padding: 5px;
+}
+
+.contact-social-icon {
+	border: 1px solid  #ffc0cb;
+	border-radius: 100px;
+	padding: 5px;
+	background-color: #ffc0cb;
+	font-size: 40px;
+	/*height: 50px;*/
+	width: 50px;
+}
+
+#social-text, #skills-text {
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 20px;
+}
+
+#facebook-icon {
+	font-weight: bold;
+	padding: 5px 10px;
+/*	font-size: 25px;*/
+}
+
+#social-icon-link {
+	color: black;
+}
+
+#social-icon-link:hover {
+	color: #6d6875;
+	border: none;
+/*	background-color: #ffc8dd;*/
+}
+
+/*Mobile Phone Screen Size*/
+
+@media only screen and (max-width: 768px) {
+
+	.container {
+		border: 0px !important;
+	}
+
+	.row {
+		border: 0px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+
+	#profile-pic {
+		height: 100%;
+		width: 100%;
+		border-radius: 25px;
+	/*	transform: rotate(-40deg);*/
+	}
+
+	/*#about-me-border {
+		position: relative;
+	}
+
+	#about-me-abstract-img-container {
+		position: absolute;
+		top: 10%;
+		left: 0;
+		z-index: 1;
+	}*/
+
+	#about-pic {
+		height: 100%;
+		width: 100%;
+		transform: rotate(0deg);
+		display: none;
+	}
+
+	/*#about-me-abstract-img {
+		height: 50vw;
+	}*/
+	#about-title {
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 35px;
+	}
+
+	#skills-container {
+		display: initial !important;
+		text-align: center;
+	}
+	.projects-container-one {
+		display: block;
+	}
+
+	.projects-container-two {
+		display: block;
+	}
+
+	#contact-container-one {
+		padding: 0;
+		height: initial;
+	}
+
+	#contact-title {
+		font-family: 'Luckiest Guy', cursive;
+		font-weight: bold;
+		font-size: 50px;
+		margin-right: 0;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	.contact-info-text {
+		font-family: 'Lexend', sans-serif;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	#social-container {
+		flex-direction: column;
+	}
+}
+
+
+/*Tablet Screen Size*/
+
+/*@media only screen and (min-width: 769px) and (max-width: 1024px) {
+	.logo {
+		height: 30px;
+		width: 125px;
+	}
+
+	.navbar {
+		background-color: #b5838d!important;
+	}
+
+	.navbar-li:hover {
+		background: #6d6875;
+		color: #ffc8dd !important;
+		font-weight: bold;
+		border: none;
+		border-radius: 25px;
+		padding: 1px;
+	}
+
+	.pinkbg {
+		background-image: url("images/background2.png");
+	}
+
+	#home-search {
+		border: 1px solid gray;
+		border-top-left-radius: 25px;
+		border-top-right-radius: 25px;
+	}
+
+	#home-card, #about-me-card {
+		border: 1px solid gray;
+		border-bottom-left-radius: 25px;
+		border-bottom-right-radius: 25px;
+	}
+
+	.card {
+		height: 10%;
+		width: 10%;
+	}
+
+	#home-card-name, #contact-title {
+		font-family: 'Luckiest Guy', cursive;
+		font-weight: bold;
+		font-size: 75px;
+		margin-right: 10%;
+		margin-bottom: 0;
+		padding: 0;
+	}
+
+	#home-card-intro {
+		font-size: 25px;
+		margin-right: 10%;
+		margin-top: 0;
+	}
+
+	#call-to-action {
+		font-family: 'Mali', cursive;
+		font-size: 20px;
+	}
+
+	span {
+		font-weight: bold;
+		font-family: 'Acme', sans-serif;
+	}
+
+	#phone-icon {
+		border: 5px solid  #b5838d;
+		border-radius: 100%;
+		padding: 5px;
+		color: #b5838d;
+	}
+
+	#home-card-button {
+		background-color: #b5838d;
+	}
+
+	#home-card-button:hover {
+		background-color: #6d6875;
+	}
+
+	#home-card-link {
+		color: #ffc8dd;
+		font-weight: bold;
+	}
+
+	#home-card-link:hover {
+		color: #ffc8dd;
+		text-decoration: none;
+	}
+
+	#profile-pic {
+		height: 75%;
+		width: 70%;
+		transform: rotate(-40deg);
+	}
+
+	#about-me-border {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		z-index: 2;
+	}
+
+	#about-pic {
+		height: 75%;
+		width: 75%;
+		transform: rotate(20deg);
+		z-index: 3;
+		border-radius: 30%;
+	}
+
+	#about-me-div {
+		position: relative;
+	}
+
+	#about-me-abstract-img-container {
+		position: absolute;
+		top: 200%;
+		left: -5%;
+		z-index: 1;
+	}
+
+	#about-me-abstract-img {
+		height: 20vw;
+	}
+
+	#about-me-text {
+		font-family: 'Mali', cursive;
+	}
+
+	.skills-icon-link {
+		border: 1px solid  #ffc0cb;
+		border-radius: 100%;
+		padding: 0;
+		background-color: #ffc0cb;
+		font-size: 2px;
+		height: 60px;
+		width: 60px;
+	}
+
+
+	#project-title, #about-title {
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 45px;
+	}
+		
+	.projects-container-one {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.projects-container-two {
+		display: flex;
+		justify-content: center;
+	}
+
+	#contact-container-one {
+		padding: 15% 0 0 0;
+		height: 100%;
+	}
+
+	#contact-subtitle {
+		font-family: 'Vujahday Script', cursive;
+		font-size: 40px;
+	}
+
+	.icon-container {
+		width: 300px;
+	}
+
+	.contact-icon {
+		height: 17.5%;
+		width: 17.5%;
+		border-radius: 100px;
+	}
+
+	.contact-info-text {
+		font-family: 'Lexend', sans-serif;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	.contact-icon-container {
+		border: 1px solid  #ffc0cb;
+		border-radius: 100px;
+		padding: 5px;
+	}
+
+	.contact-social-icon {
+		border: 1px solid  #ffc0cb;
+		border-radius: 100px;
+		padding: 5px;
+		background-color: #ffc0cb;
+		font-size: 40px;
+		height: 50px;
+		width: 50px;
+	}
+
+	#social-text, #skills-text {
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 20px;
+	}
+
+	#facebook-icon {
+		font-weight: bold;
+		padding: 5px 10px;
+		font-size: 25px;
+	}
+
+	#social-icon-link {
+		color: black;
+	}
+
+	#social-icon-link:hover {
+		color: #6d6875;
+		border: none;
+		background-color: #ffc8dd;
+	}
+}*/
