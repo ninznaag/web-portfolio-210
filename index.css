@@ -23,7 +23,6 @@
 	background: #6d6875;
 	font-weight: bold;
 	border: none;
-	/*border-radius: 25px;*/
 }
 
 .nav-link:hover {
@@ -114,7 +113,7 @@
 
 #about-me-header, #projects-header, #contact-header {
 	font-family: 'Luckiest Guy', cursive;
-	font-size: 30px;
+	font-size: 29px;
 }
 
 #skills-header, #socials-header {
@@ -245,8 +244,8 @@
 	}
 
 	#profile-pic {
-		height: 80%;
-		width: 80%;
+		height: 350px;
+		width: 350px;
 		border-radius: 100%;
 		transform: rotate(45deg);
 	}
@@ -268,7 +267,6 @@
 	#skills-header, #socials-header {
 		font-family: 'Luckiest Guy', cursive;
 		font-size: 20px;
-
 	}
 
 	.skills-icon {
@@ -289,8 +287,7 @@
 		font-size: 40px;
 	}
 
-	#contact-section-row {
-		padding: 6% 0;
+	.contact-subsection, .home-subsection {
+		min-height: 80vh;
 	}
-
 }
