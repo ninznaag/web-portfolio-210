@@ -31,7 +31,7 @@
 
 .container-fluid {
 	background-image: url("images/web-portfolio-bg.jpg");
-	background-size: auto;
+	background-size: 100% 100%;
 	padding-top: 15% !important;
 	min-height: 110vh !important;
 }
