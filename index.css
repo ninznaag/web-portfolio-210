@@ -30,7 +30,7 @@
 }
 
 .container-fluid {
-	background-image: url("images/background2.png");
+	background-image: url("images/web-portfolio-bg.jpg");
 	background-size: auto;
 	padding-top: 15% !important;
 	min-height: 110vh !important;
@@ -229,8 +229,8 @@
 @media only screen and (min-width: 1200px) {
 
 	.container-fluid {
-		background-image: url("images/background2.png");
-		background-size: auto;
+		background-image: url("images/web-portfolio-bg.jpg");
+		background-size: 100% 100%;
 		padding-top: 5.5% !important;
 		min-height: 100vh !important;
 	}
